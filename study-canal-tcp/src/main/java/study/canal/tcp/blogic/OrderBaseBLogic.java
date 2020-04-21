@@ -1,10 +1,10 @@
-package study.canal.client.blogic;
+package study.canal.tcp.blogic;
 
 import com.alibaba.otter.canal.protocol.CanalEntry;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
-import study.canal.client.support.blogic.BaseBLogic;
-import study.canal.client.support.blogic.Table;
+import study.canal.tcp.support.blogic.BaseBLogic;
+import study.canal.tcp.support.blogic.Table;
 
 import java.util.List;
 

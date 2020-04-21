@@ -1,4 +1,4 @@
-package study.canal.client.support.canal.client;
+package study.canal.tcp.support.canal.client;
 
 import com.alibaba.otter.canal.client.CanalConnector;
 import com.alibaba.otter.canal.client.CanalConnectors;
@@ -9,7 +9,7 @@ import com.google.common.util.concurrent.ThreadFactoryBuilder;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
-import study.canal.client.support.canal.dispater.EntryDispatcher;
+import study.canal.tcp.support.canal.dispater.EntryDispatcher;
 
 import java.net.InetSocketAddress;
 import java.util.List;

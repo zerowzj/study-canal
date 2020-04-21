@@ -1,10 +1,10 @@
-package study.canal.client.support.canal;
+package study.canal.tcp.support.canal;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import study.canal.client.support.canal.client.SpringCanalClient;
+import study.canal.tcp.support.canal.client.SpringCanalClient;
 
 @Slf4j
 @Configuration

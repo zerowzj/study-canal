@@ -1,4 +1,4 @@
-package study.canal.client.support.blogic;
+package study.canal.tcp.support.blogic;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

@@ -1,8 +1,8 @@
-package study.canal.client;
+package study.canal.kafka;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.context.ConfigurableApplicationContext;
-import study.canal.client.support.SpringBootCfg;
+import study.canal.kafka.support.SpringBootCfg;
 
 public class Startup {
 

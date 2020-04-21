@@ -1,13 +1,13 @@
-package study.canal.client.support.canal.dispater;
+package study.canal.tcp.support.canal.dispater;
 
 import com.alibaba.otter.canal.protocol.CanalEntry;
 import com.google.common.collect.ImmutableList;
 import com.google.common.util.concurrent.ThreadFactoryBuilder;
 import com.google.protobuf.ByteString;
 import lombok.extern.slf4j.Slf4j;
-import study.canal.client.support.blogic.BLogic;
-import study.canal.client.support.blogic.BLogicFactory;
-import study.canal.client.support.canal.EntryContext;
+import study.canal.tcp.support.blogic.BLogic;
+import study.canal.tcp.support.blogic.BLogicFactory;
+import study.canal.tcp.support.canal.EntryContext;
 
 import java.util.List;
 import java.util.Objects;

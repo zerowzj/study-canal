@@ -1,7 +1,7 @@
-package study.canal.client.support.blogic;
+package study.canal.tcp.support.blogic;
 
 import com.alibaba.otter.canal.protocol.CanalEntry;
-import study.canal.client.support.canal.EntryContext;
+import study.canal.tcp.support.canal.EntryContext;
 
 import java.util.List;
 

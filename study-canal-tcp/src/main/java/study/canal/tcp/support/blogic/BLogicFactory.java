@@ -1,4 +1,4 @@
-package study.canal.client.support.blogic;
+package study.canal.tcp.support.blogic;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeansException;

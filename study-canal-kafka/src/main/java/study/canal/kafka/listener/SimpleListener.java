@@ -11,7 +11,7 @@ import java.util.Optional;
 @Component
 public class SimpleListener {
 
-    @KafkaListener(topics = {"topic"})
+    @KafkaListener(topics = {"example"})
     public void onMessage(ConsumerRecord<?, ?> record) {
         Optional<?> kafkaMessage = Optional.ofNullable(record.value());
         if (kafkaMessage.isPresent()) {

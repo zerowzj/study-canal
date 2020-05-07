@@ -62,9 +62,9 @@ canal.mq.retries=0
 
 
 
-## 2.2 instance
+## 2.2 实例配置（instance.properties）
 
-### 2.2.1 基本配置
+### 2.2.1 基本
 
 ```properties
 #
@@ -75,7 +75,7 @@ canal.instance.gtidon=false
 
 
 
-### 2.2.2 数据库配置
+### 2.2.2 数据库
 
 ```properties
 #地址
@@ -104,7 +104,7 @@ canal.instance.enableDruid=false
 
 
 
-### 2.2.3 过滤配置
+### 2.2.3 过滤
 
 ```properties
 canal.instance.filter.regex=.*\\..*\ 
@@ -123,7 +123,7 @@ mysql 数据解析关注的表，Perl正则表达式.多个正则之间以逗号
   多个规则组合使用：canal\\..*,mysql.test1,mysql.test2 (逗号分隔)
   注意：此过滤条件只针对row模式的数据有效(ps. mixed/statement因为不解析sql，所以无法准确提取tableName进行过滤)
 
-### 2.2.4 MQ配置
+### 2.2.4 MQ
 
 ```properties
 #

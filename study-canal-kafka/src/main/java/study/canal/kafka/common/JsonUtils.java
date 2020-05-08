@@ -11,7 +11,7 @@ public class JsonUtils {
     public static String toJson(Object obj) {
         String text = "";
         if (obj != null) {
-            text = JSON.toJSONString(obj);
+            text = JSON.toJSONString(obj, true);
         }
         return text;
     }

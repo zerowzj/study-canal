@@ -26,6 +26,5 @@ public class JsonUtils {
         data.put("name", "wzhj");
         data.put("age", "33");
         System.out.println(JsonUtils.toJson(data));
-
     }
 }

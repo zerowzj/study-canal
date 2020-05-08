@@ -1,7 +1,7 @@
 spring:
   kafka:
     bootstrap-servers: 150.158.122.249:9092
-    #
+    #消费者
     consumer:
       client-id: CLIENT_ID_01
       group-id: group1
@@ -10,6 +10,7 @@ spring:
       auto-commit-interval: 100
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+    #监听
     listener:
       concurrency: 5
       #listner负责ack，每调用一次，就立即commit

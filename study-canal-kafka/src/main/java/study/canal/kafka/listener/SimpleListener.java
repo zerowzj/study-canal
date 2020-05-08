@@ -4,6 +4,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Component;
+import study.canal.kafka.common.JsonUtils;
 
 import java.util.Optional;
 
@@ -17,7 +18,7 @@ public class SimpleListener {
         if (kafkaMessage.isPresent()) {
             Object message = kafkaMessage.get();
             log.info("record= {}", record);
-            log.info("message= {}", message);
+            System.out.println(JsonUtils.toJson(message));
         }
     }
 }

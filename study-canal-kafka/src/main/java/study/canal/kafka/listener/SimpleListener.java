@@ -18,6 +18,7 @@ public class SimpleListener {
         if (kafkaMessage.isPresent()) {
             Object message = kafkaMessage.get();
             log.info("record= {}", record);
+            log.info("message= {}", message);
             System.out.println(JsonUtils.toJson(message));
         }
     }
